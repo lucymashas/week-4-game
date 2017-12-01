@@ -1,0 +1,118 @@
+html, body{
+
+    font-family: 'Lora', serif;
+    text-align:center;
+    background-image: url("../images/background2.png");
+    min-height: 100%; 
+    width:100%;
+    height:auto;
+    position:relative;
+    top: 0;
+    left: 0;
+   /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+   
+  }
+
+#container{
+
+	max-width:960px;
+	margin: auto;
+    width:96%;
+}
+
+#section{
+	float:none;
+}
+#crystals{
+	max-width: 100%;
+    border: 1px solid #8a9790;
+    border-radius: 3px;
+}
+h1{
+	color: #375958;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5em;
+    font-weight: 300;
+    line-height: 2.5em;
+
+	}
+p
+{
+    line-height: 1.2em;
+    margin: 10px 10px;
+}
+
+.head2{
+	padding: 15px;
+    background-color: #708d92;
+    color: #cccfc4;
+    font-size: 20px;
+}
+#instructions {
+    width: 120px;
+    font-size: 16px;
+    color: #8c116a;
+    border-left: 1px solid #8a9790;
+    border-bottom: 1px solid #8a9790;
+    border-right: 1px solid #8a9790;
+    padding: 10px;
+    float:right;
+    text-align:center;
+}
+.instr{
+    clear:both;
+}
+.crystalimg {
+    height: 178px;
+    width: 21%;
+    padding: 1.8%;
+    border-right: 1px solid #8a9790;
+
+}
+.crystalimg:last-child {
+	border-right: none;
+
+}
+.outcome{
+    text-align: left;
+    font-size: 24px;
+    color: #8c116a;
+    padding: 20px 0px 20px 40px;
+    margin-top: 50px;
+    margin-bottom:-40px;
+    border-top: 1px solid #8a9790;
+    border-bottom: 1px solid #8a9790;
+}
+.boxes{
+	width: 27%;
+	max-width:260px;
+    margin-top: 8em;
+    margin-right: 8.5%;
+    background-color: #eee;
+    float: left;
+	height: 240px;
+	border: 1px solid #8a9790;
+    border-radius: 3px;
+
+}
+.boxes:last-child{
+	margin-right: 0;
+}
+
+.innerbox{
+	font-size: 2.5em;
+	text-align:center;
+	margin-top: 60px;
+	color:#8c116a
+
+}
+.scorebox{
+	font-size: 1.5em;
+    text-align:left;
+	padding: 10px 5px 0 20px;
+    text-transform: uppercase;
+	margin-top: 30px;
+	color:#8c116a;
+}

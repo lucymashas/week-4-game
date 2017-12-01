@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Crystal Game</title>
+ 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+ 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+ 	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	  	 <script type="text/javascript" src = "./assets/javascript/game.js"></script>
+ 	
+ 	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+</head>
+<body>
+	<div id="container">
+		<div id="instructions" value="toggle">Instructions</div>
+
+		<div class="instr" style="display:none;">
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.</p>
+		</div>
+		<div id="heading">
+				<h1>Crystals Collector</h1>
+			</div>
+			
+		<section>
+			
+		
+		    <div id="crystals">
+		    	<div class = "head2">CRYSTALS</div>
+			</div>
+			<div id="message"></div>
+		    <div class = "boxes">
+		    	<div class = "head2">MATCH</div>
+		    	<div class = "innerbox" id="target">&nbsp;</div>
+		    </div>
+			<div class = "boxes">
+				<div class = "head2">CURRENT</div>
+				<div class = "innerbox" id="points">0</div>
+			</div>
+			<div class="boxes">
+				<div class = "head2">SCORE</div>
+				<div class = "scorebox" id="wins">Wins:  </div>
+				<div class = "scorebox" id="loses">Loses:  </div>
+					
+				</div>
+			</div>
+		</section>
+	</div>
+
+</body>
+  
+
+</html>
