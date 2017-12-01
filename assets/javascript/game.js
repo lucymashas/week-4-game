@@ -55,7 +55,6 @@ $(document).ready(function()
             message("🤗 YOU WON .... ");
             $("#wins").text("Wins:  "+ wins);
             window.setTimeout(initgame, 2000);
-            initgame();
 		}
 		else if (totalScore > randomNum)
 			{
