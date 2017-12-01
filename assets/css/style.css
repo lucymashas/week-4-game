@@ -60,6 +60,7 @@ p
     padding: 10px;
     float:right;
     text-align:center;
+    cursor:pointer;
 }
 .instr{
     clear:both;
@@ -69,6 +70,7 @@ p
     width: 21%;
     padding: 1.8%;
     border-right: 1px solid #8a9790;
+    cursor:pointer;
 
 }
 .crystalimg:last-child {
