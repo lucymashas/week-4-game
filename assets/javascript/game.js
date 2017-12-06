@@ -4,7 +4,7 @@ $(document).ready(function()
 	var totalScore = 0;
 	var wins = 0;
 	var loses = 0;
-
+	var gameOverFlag = false;
 	function renderCrystals(){
 	// Load Images template and assign a random value
   		$("#crystals").empty();
@@ -21,6 +21,7 @@ $(document).ready(function()
 //Initialization of the game
 	function initgame(){
 		totalScore = 0;
+		gameOverFlag = false;
 		$("#message").removeClass();
         $("#message").empty();
         $('#message[class=""]').removeAttr('class');
@@ -49,16 +50,18 @@ $(document).ready(function()
 
 
 	//Check for win-lose
-		if (totalScore === randomNum)
+		if (totalScore === randomNum && gameOverFlag === false)
 		{
 			++wins;
+			gameOverFlag = true;
             message("🤗 YOU WON .... ");
             $("#wins").text("Wins:  "+ wins);
             window.setTimeout(initgame, 2000);
 		}
-		else if (totalScore > randomNum)
+		else if (totalScore > randomNum && gameOverFlag === false)
 			{
-				++loses;      		
+				++loses;
+				gameOverFlag = true;      		
         		message("😱 YOU LOST .......");
         		$("#loses").text("LOSES:  " + loses);
 				window.setTimeout(initgame, 2000);
