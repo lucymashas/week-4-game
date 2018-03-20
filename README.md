@@ -1,9 +1,12 @@
+Week4-game:  Crystal Game
+
 An interactive game for web browser. 
-html/jquery library
+Demo:  https://lucymashas.github.io/week-4-game/
+Technology Stack:  html/css jQuery 
 
 Game Overview:
 
-Four crystals are displayed   on the page.
+Four crystals are displayed on the page.
 
  The player will be shown a random number at the start of the game.
 
@@ -17,6 +20,4 @@ Four crystals are displayed   on the page.
 
 When the game begins again, the player will see a new random number. All the crystals will have four new hidden random values. All counters are reset.
 
-Demo:
-https://lucymashas.github.io/week-4-game/
 
